@@ -1,0 +1,29 @@
+
+ARDUINO	|		|	RX		|	DESCRIPTION			|	NOT FREE	|	CUSTOM
+--------------------------------------------------------------------------
+D2			1		CH3			TROTTLE
+D4			2		CH1			ROLL
+D5			3		CH2	 		PITCH
+D6			4		CH4	 		YAW
+D7			5		CH6	 		AUX 1
+RX0 (D0)	6					AUX 2									BT TX
+TX0			7					AUX 3									BT RX
+D3			8					AUX 4					*
+A7			9					BAT
+A6			10					PSE 
+D8			11					D9 										BUZ
+D12			12		CH5	 		PWR                                     AUX 2
+TX0	(D1)	14	  				LCD
+A3			15					VBAT
+
+D9			1					MOTOR									MOTOR S0 (3)	
+D10			2					MOTOR									MOTOR NO (2)
+D3			3					MOTOR									MOTOR NE (1)
+D11			4					MOTOR									MOTOR N0 (4)	
+D12			5					AUX2					*
+A2			6					CAMERA TRIGGER
+A1			7					SERVO ROLL
+A0			8					SERVO PITCH			
+
+A4 								SDA
+A5								SCL
